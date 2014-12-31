@@ -14,7 +14,7 @@ String.prototype.toHankakuCase = function()
 
 		switch(true)
 		{
-			//　【！】～【～】の範囲
+			// "！" - "～" の範囲
 			case (0xFF01 <= c && c <= 0xFF5E):
 				a[i] -= 0xFEE0;
 				break;
@@ -24,7 +24,6 @@ String.prototype.toHankakuCase = function()
 				break;
 		};
 	};
-
 
 	return String.fromCharCode.apply(null, a);
 };
