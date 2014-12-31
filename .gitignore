@@ -1,9 +1,2 @@
-/target
-/report
-.classpath
-.project
-/.settings
-/lib
-/bin
-/build/classes
 .DS_Store
+
